@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MyDataSiswaTheme {
-                DataSiswaApp()
+                DataSiswaApp(modifier = Modifier.fillMaxSize())
             }
         }
     }
